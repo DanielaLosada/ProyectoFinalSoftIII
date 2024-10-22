@@ -1,0 +1,26 @@
+abr 24, 2024 4:59:11 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: XimenaR,2024-04-24
+abr 24, 2024 5:00:41 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: XimenaR,2024-04-24
+abr 24, 2024 5:04:31 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: crear vendedor,Se ha creado un nuevo vendedor en la red 123456,2024-04-24
+abr 24, 2024 5:04:42 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: Juanes,2024-04-24
+abr 24, 2024 5:07:54 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+ADVERTENCIA: inicio Sesion,Error de sesion del usuario,2024-04-24
+abr 24, 2024 5:08:05 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+ADVERTENCIA: inicio Sesion,Error de sesion del usuario,2024-04-24
+abr 24, 2024 5:11:11 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: XimenaR,2024-04-24
+abr 24, 2024 5:45:17 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: crear vendedor,Se ha creado un nuevo vendedor en la red 78262682,2024-04-24
+abr 24, 2024 5:45:52 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: JuanCardona,2024-04-24
+oct 21, 2024 9:57:40 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: DanielaL,2024-10-21
+oct 21, 2024 10:00:58 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: DanielaL,2024-10-21
+oct 22, 2024 7:39:08 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: DanielaL,2024-10-22
+oct 22, 2024 8:08:06 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: DanielaL,2024-10-22

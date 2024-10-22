@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_381" class="java.beans.XMLDecoder">
+ <object class="redVendedores.model.Red">
+  <void property="administrador">
+   <object class="redVendedores.model.Administrador">
+    <void property="contrasenia">
+     <string>Delicioso5#</string>
+    </void>
+    <void property="correo">
+     <string>iaschool602@gmail.com</string>
+    </void>
+   </object>
+  </void>
+  <void property="listaClientes">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="redVendedores.model.Cliente">
+      <void property="apellidos">
+       <string>Losada</string>
+      </void>
+      <void property="contrasenia">
+       <string>Daniela20.</string>
+      </void>
+      <void property="correo">
+       <string>danielai.losadar@uqvirtual.edu.co</string>
+      </void>
+      <void property="direccion">
+       <string>Barrio las Americas</string>
+      </void>
+      <void property="documento">
+       <string>1092455518</string>
+      </void>
+      <void property="nombre">
+       <string>Daniela</string>
+      </void>
+      <void property="usuario">
+       <string>DanielaL</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Cliente">
+      <void property="apellidos">
+       <string>Ruiz</string>
+      </void>
+      <void property="contrasenia">
+       <string>Xruiz26@</string>
+      </void>
+      <void property="correo">
+       <string>angieruiz564@gmail.com</string>
+      </void>
+      <void property="direccion">
+       <string>Cra 29 #38-35</string>
+      </void>
+      <void property="documento">
+       <string>1095550251</string>
+      </void>
+      <void property="nombre">
+       <string>Ximena</string>
+      </void>
+      <void property="usuario">
+       <string>XimenaR</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="listaProductos">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>1456</string>
+      </void>
+      <void property="descripcion">
+       <string>Torta de chocolate con crema</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre1.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Postre</string>
+      </void>
+      <void property="precio">
+       <string>$10000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>8976</string>
+      </void>
+      <void property="descripcion">
+       <string>Postre tres leches y durazno</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre2.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Postre durazno</string>
+      </void>
+      <void property="precio">
+       <string>$10000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>7990</string>
+      </void>
+      <void property="descripcion">
+       <string>Postre 9 onzas </string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre3.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Postre red velvet</string>
+      </void>
+      <void property="precio">
+       <string>$10000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>4656</string>
+      </void>
+      <void property="descripcion">
+       <string>Arroz con leche</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre4.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Arroz con leche</string>
+      </void>
+      <void property="precio">
+       <string>$3000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Anchetas</string>
+      </void>
+      <void property="codigo">
+       <string>7777</string>
+      </void>
+      <void property="descripcion">
+       <string>Brownies x6</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre6.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Ancheta Brownies</string>
+      </void>
+      <void property="precio">
+       <string>$25000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Tortas</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string>Deliciosa torta por libra</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre5.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Torta</string>
+      </void>
+      <void property="precio">
+       <string>$60000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Desayunos</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string>Para tu persona especial</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre9.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Desayuno sorpresa</string>
+      </void>
+      <void property="precio">
+       <string>$120000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Desayunos</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string>Desayuno + torta</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre7.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Desayuno Sorpresa</string>
+      </void>
+      <void property="precio">
+       <string>$45000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string>Deliciosas en 9 onzas</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre8.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Fresas con crema</string>
+      </void>
+      <void property="precio">
+       <string>$7500</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Desayuno</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string></string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre10.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Desayuno sorpresa</string>
+      </void>
+      <void property="precio">
+       <string>$120000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string>Delicioso postre, especial para ti</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre11.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Postre tres leches</string>
+      </void>
+      <void property="precio">
+       <string>$4000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Meriendas</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string></string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre12.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Merienda</string>
+      </void>
+      <void property="precio">
+       <string>$30000</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Producto">
+      <void property="categoria">
+       <string>Postres</string>
+      </void>
+      <void property="codigo">
+       <string>2321</string>
+      </void>
+      <void property="descripcion">
+       <string>Postre delicioso maracuya y relleno de mora</string>
+      </void>
+      <void property="estado">
+       <string>Publicado</string>
+      </void>
+      <void property="fechaHora">
+       <string>2024-10-22</string>
+      </void>
+      <void property="imagen">
+       <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD&apos;ElizaFinalFinal/bin/imagenes/postre13.jpg</string>
+      </void>
+      <void property="nombre">
+       <string>Postre maracuya</string>
+      </void>
+      <void property="precio">
+       <string>$4500</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="nombre">
+   <string>Delicias DEliza</string>
+  </void>
+ </object>
+</java>

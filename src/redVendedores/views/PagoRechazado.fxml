@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="663.0" prefWidth="511.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.PagoRechazadoController">
+   <children>
+      <ImageView fitHeight="112.0" fitWidth="430.0" layoutX="78.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/pio.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="monto" layoutX="218.0" layoutY="148.0" text="\$35.000">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutY="193.0" prefHeight="53.0" prefWidth="511.0" style="-fx-background-color: #eeeeee;">
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="308.0" layoutX="24.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/pola.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Text fill="#440404" layoutX="32.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Estado de la transacción ">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#440404" layoutX="32.0" layoutY="308.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Número de transacción">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#440404" layoutX="31.0" layoutY="338.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha ">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#440404" layoutX="32.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medio de pago">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#440404" layoutX="32.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Empresa">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#440404" layoutX="32.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NIT">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text fill="#440404" layoutX="33.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banco">
+         <font>
+            <Font name="Arial Bold" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="316.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Transacción rechazada">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="medioPago" layoutX="385.0" layoutY="370.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PSE">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text layoutX="341.0" layoutY="403.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delicias D'eliza">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Label fx:id="fecha" layoutX="341.0" layoutY="318.0" prefHeight="28.0" prefWidth="142.0" text="13 de Noviembre">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="nroTrans" layoutX="355.0" layoutY="288.0" prefHeight="28.0" prefWidth="89.0" text="232394984">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Text layoutX="368.0" layoutY="441.0" strokeType="OUTSIDE" strokeWidth="0.0" text="890876">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <Text fx:id="banco" layoutX="374.0" layoutY="476.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NEQUI">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutY="492.0" prefHeight="53.0" prefWidth="511.0" style="-fx-background-color: #eeeeee;">
+         <children>
+            <ImageView fitHeight="61.0" fitWidth="308.0" layoutX="24.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/345.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label fx:id="total" layoutX="303.0" layoutY="564.0" text="\$35.000">
+         <font>
+            <Font name="Arial Bold" size="21.0" />
+         </font>
+      </Label>
+      <Text fill="#440404" layoutX="78.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnCerrar" layoutX="211.0" layoutY="613.0" mnemonicParsing="false" onAction="#cerrarEvent" prefHeight="20.0" prefWidth="89.0" style="-fx-background-color: #440404; -fx-background-radius: 30 30 30 30;" text="Cerrar" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT" size="19.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="36.0" fitWidth="32.0" layoutX="284.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/click-izquierdo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

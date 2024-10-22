@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="232.0" prefWidth="275.0" style="-fx-background-radius: 30 30 30 30;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.UsuarioController">
+   <children>
+      <ImageView fitHeight="232.0" fitWidth="417.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Presentación%20Diapositiva%20Marca%20Creativa%20Doodle%20Acuarela%20Colores%20Pasteles.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="nombreVendedor" layoutX="113.0" layoutY="14.0" prefHeight="42.0" prefWidth="153.0" text="Daniela Losada" textFill="#440404">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="foto" fitHeight="51.0" fitWidth="54.0" layoutX="38.0" layoutY="14.0" onMouseClicked="#usuarioEvent" pickOnBounds="true" preserveRatio="true" styleClass="image-frame" />
+      <Line endX="164.0" layoutX="114.0" layoutY="72.0" startX="-114.0" stroke="GREY" />
+      <Text fx:id="labelPQRS" layoutX="138.0" layoutY="108.0" onMouseClicked="#pqrsEvent" strokeType="OUTSIDE" strokeWidth="0.0" text="P.Q.R.S" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="27.0" />
+         </font>
+      </Text>
+      <Line endX="164.0" layoutX="114.0" layoutY="130.0" startX="-114.0" stroke="GREY" />
+      <ImageView fitHeight="42.0" fitWidth="54.0" layoutX="44.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/queja%20(1).png" />
+         </image>
+      </ImageView>
+      <Line endX="164.0" layoutX="114.0" layoutY="190.0" startX="-114.0" stroke="GREY" />
+      <Text fx:id="labelSalir" layoutX="153.0" layoutY="166.0" onMouseClicked="#salirEvent" strokeType="OUTSIDE" strokeWidth="0.0" text="Salir" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="27.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

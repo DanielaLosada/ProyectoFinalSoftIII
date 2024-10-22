@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMousePressed="#click" prefHeight="193.0" prefWidth="429.0" stylesheets="@../../values/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.ProductoCarritoController">
+   <children>
+      <ImageView fx:id="imagen" fitHeight="133.0" fitWidth="128.0" layoutX="23.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="txtNombreProducto" alignment="CENTER" layoutX="7.0" prefHeight="47.0" prefWidth="219.0" promptText="Nombre Producto" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #943131; -fx-border-radius: 50%; -fx-background-radius: 50%;">
+         <font>
+            <Font name="Cambria" size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtPrecio" layoutX="276.0" layoutY="-4.0" prefHeight="55.0" prefWidth="143.0" promptText="Precio" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #000000;">
+         <font>
+            <Font name="Cambria Bold" size="18.0" />
+         </font>
+      </TextField>
+      <Spinner fx:id="nroProductos" layoutX="226.0" layoutY="95.0" prefHeight="34.0" prefWidth="69.0" style="-fx-background-color: #F5f2ee; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);" />
+      <Label fx:id="txtDescripcion" layoutX="166.0" layoutY="51.0" prefHeight="26.0" prefWidth="259.0" text="...">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="eliminarPCarrito" layoutX="180.0" layoutY="144.0" onMouseClicked="#eliminarEvent" prefHeight="34.0" prefWidth="69.0" text="Eliminar" textFill="#3c0707" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="comprarProducto" layoutX="276.0" layoutY="144.0" onMouseClicked="#comprarEvent" prefHeight="34.0" prefWidth="122.0" text="Comprar ahora" textFill="#3c0707" underline="true">
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <styleClass>
+      <String fx:value="fruit-item" />
+      <String fx:value="shadow" />
+   </styleClass>
+</AnchorPane>

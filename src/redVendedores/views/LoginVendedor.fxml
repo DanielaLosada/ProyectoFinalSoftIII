@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.LoginVendedorController">
+   <children>
+      <ImageView fitHeight="695.0" fitWidth="672.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Instagram%20post%20frase%20positiva%20acuarela%20azul%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="122.0" fitWidth="247.0" layoutX="420.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen17.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="flechaRegresar" fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" onMouseClicked="#flechaRegresarEvent" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/flecha-izquierda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="138.0" fitWidth="239.0" layoutX="216.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen21.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="397.0" layoutX="134.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen27.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="91.0" layoutX="12.0" layoutY="568.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/sparkles.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="olvideContrasena" layoutX="221.0" layoutY="625.0" onMouseClicked="#olvideContrasenaEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" prefHeight="39.0" prefWidth="229.0" text="¿Olvidaste la contraseña?" textFill="#fd7b7b">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnIngresar" layoutX="269.0" layoutY="541.0" mnemonicParsing="false" onAction="#ingresarEvent" prefHeight="39.0" prefWidth="127.0" style="-fx-background-color: #440404; -fx-background-radius: 30 30 30 30;" text="Ingresar" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT" size="25.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtContrasenia" layoutX="105.0" layoutY="441.0" prefHeight="46.0" prefWidth="463.0" promptText="Contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+         <font>
+            <Font name="Tw Cen MT" size="23.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="87.0" layoutY="276.0" text="Usuario" textFill="#440404">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="398.0" text="Contraseña" textFill="#440404">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumDocumento" layoutX="105.0" layoutY="313.0" prefHeight="46.0" prefWidth="463.0" promptText="Nombre de usuario" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+         <font>
+            <Font name="Tw Cen MT" size="25.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="430.0" layoutY="637.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/cerrar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="47.0" layoutX="373.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/click-izquierdo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="23.0" layoutX="579.0" layoutY="325.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/informacion.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VerContrasenia" fitHeight="26.0" fitWidth="32.0" layoutX="579.0" layoutY="453.0" onMouseClicked="#verContraseniaEvent" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/invisible.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

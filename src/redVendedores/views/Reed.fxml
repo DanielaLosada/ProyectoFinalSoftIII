@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="733.0" prefWidth="1302.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.ReedController">
+   <children>
+      <ImageView fitHeight="803.0" fitWidth="1309.0" layoutY="-4.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Presentación%20Diapositiva%20Marca%20Creativa%20Doodle%20Acuarela%20Colores%20Pasteles.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutY="6.0" prefHeight="931.0" prefWidth="1309.0">
+         <children>
+            <ImageView fitHeight="137.0" fitWidth="277.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../DeliciasD_Eliza2/src/imagenes/Imagen17.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="83.0" layoutX="277.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../DeliciasD_Eliza2/src/imagenes/hola.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="493.0" layoutX="353.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../DeliciasD_Eliza2/src/imagenes/delici.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="58.0" fitWidth="108.0" layoutX="784.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../DeliciasD_Eliza2/src/imagenes/ikik.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="48.0" fitWidth="379.0" layoutX="383.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../DeliciasD_Eliza2/src/imagenes/olioli.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="iconCerrarS" fitHeight="47.0" fitWidth="51.0" layoutX="1255.0" layoutY="671.0" onMouseClicked="#cerrarSesion2Event" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/cerrar-sesion.png" />
+               </image>
+            </ImageView>
+            <ScrollPane fx:id="scroll" layoutX="471.0" layoutY="181.0" prefHeight="1103.0" prefWidth="775.0" style="-fx-background-color: rgba(0,0,0,0); -fx-background-radius: 30 30 30 30;">
+               <content>
+                  <GridPane fx:id="grid" prefHeight="0.0" prefWidth="0.0">
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                     </rowConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <ImageView fitHeight="76.0" fitWidth="168.0" layoutX="747.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../DeliciasD_Eliza2/src/imagenes/cata.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="59.0" layoutY="149.0" prefHeight="501.0" prefWidth="357.0" style="-fx-background-color: #F5f2ee; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <children>
+                  <Label layoutX="86.0" layoutY="306.0" text="Cód." textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="14.0" layoutY="340.0" text="Categoría:" textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="-24.0" layoutY="6.0" prefHeight="58.0" prefWidth="368.0">
+                     <children>
+                        <TextField fx:id="txtNombreProducto" alignment="CENTER" prefHeight="55.0" prefWidth="257.0" promptText="Nombre Producto" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #943131;">
+                           <font>
+                              <Font name="Cambria" size="23.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtPrecio" prefHeight="55.0" prefWidth="125.0" promptText="Precio" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #0676b7;">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <ImageView fx:id="imagenProducto" fitHeight="234.0" fitWidth="225.0" layoutX="34.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label layoutX="14.0" layoutY="375.0" text="Descripción:" textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="txtCodigo" layoutX="131.0" layoutY="304.0" prefHeight="17.0" prefWidth="84.0" text="Label">
+                     <font>
+                        <Font name="Arial" size="19.0" />
+                     </font></Label>
+                  <Label fx:id="txtCategoria" layoutX="100.0" layoutY="340.0" prefHeight="28.0" prefWidth="206.0" text="Label">
+                     <font>
+                        <Font name="Arial" size="19.0" />
+                     </font></Label>
+                  <Label fx:id="txtDescripcion" layoutX="8.0" layoutY="404.0" prefHeight="15.0" prefWidth="330.0" text="Label">
+                     <font>
+                        <Font name="Arial" size="18.0" />
+                     </font></Label>
+                  <Spinner fx:id="nroProductos" layoutX="266.0" layoutY="257.0" prefHeight="34.0" prefWidth="65.0" style="-fx-background-color: #F5f2ee; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);" />
+                  <Text layoutX="184.0" layoutY="460.0" strokeType="OUTSIDE" strokeWidth="0.0" text="recibe el producto que">
+                     <font>
+                        <Font name="Tw Cen MT" size="18.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="27.0" fitWidth="28.0" layoutX="14.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/verificacion-de-escudo.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="47.0" layoutY="482.0" strokeType="OUTSIDE" strokeWidth="0.0" text="esperabas o te devolvemos tu dinero.">
+                     <font>
+                        <Font name="Tw Cen MT" size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#fd7b7b" layoutX="42.0" layoutY="461.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Compra protegida,">
+                     <font>
+                        <Font name="Tw Cen MT" size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+            <Button fx:id="btnComprar" layoutX="223.0" layoutY="666.0" mnemonicParsing="false" onAction="#ComprarEvent" prefHeight="28.0" prefWidth="108.0" style="-fx-background-color: #440404; -fx-background-radius: 30 30 30 30;" text="Comprar" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="22.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="46.0" fitWidth="47.0" layoutX="319.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/click-izquierdo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnAgregarC" layoutX="14.0" layoutY="663.0" mnemonicParsing="false" onAction="#agregarCEvent" prefHeight="46.0" prefWidth="195.0" style="-fx-background-color: #440404; -fx-background-radius: 30 30 30 30;" text="Agregar al carrito" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="22.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="46.0" fitWidth="47.0" layoutX="186.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/click-izquierdo.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="txtNroProductosC" layoutX="1231.0" layoutY="16.0" prefHeight="27.0" prefWidth="28.0">
+               <font>
+                  <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iconCarrito" fitHeight="43.0" fitWidth="40.0" layoutX="1259.0" layoutY="10.0" onMouseClicked="#irCarritoEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/compra.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="892.0" layoutY="-7.0" prefHeight="58.0" prefWidth="330.0" style="-fx-background-color: #F5B7B1; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0) dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <children>
+                  <Label fx:id="nombreVendedor" layoutX="14.0" layoutY="10.0" onMouseClicked="#usuarioPrincipalEvent" prefHeight="42.0" prefWidth="153.0" text="Daniela Losada" textFill="#440404">
+                     <font>
+                        <Font name="Tw Cen MT" size="20.0" />
+                     </font>
+                  </Label>
+                  <Line endX="-100.0" endY="33.0" layoutX="249.0" layoutY="14.0" startX="-100.0" stroke="GREY" />
+                  <Text fx:id="labelMisPedidos" fill="#440404" layoutX="158.0" layoutY="37.0" onMouseClicked="#pedidosEvent" strokeType="OUTSIDE" strokeWidth="0.0" text="Mis pedidos">
+                     <font>
+                        <Font name="Tw Cen MT" size="20.0" />
+                     </font>
+                  </Text>
+                  <Line endX="-100.0" endY="33.0" layoutX="362.0" layoutY="14.0" startX="-100.0" stroke="GREY" />
+                  <ImageView fx:id="imgFavoritos" fitHeight="34.0" fitWidth="28.0" layoutX="274.0" layoutY="17.0" onMouseClicked="#favoritosEvent" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/favorito.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <ImageView fx:id="imgDarFav" fitHeight="40.0" fitWidth="40.0" layoutX="374.0" layoutY="666.0" onMouseClicked="#darFavEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/favorito.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
